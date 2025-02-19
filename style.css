@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #fdfcfc;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: rgba(122, 0, 204, 0.8);
+    color: rgb(239, 11, 26);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: lime;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  section {
+    padding: 30px;
+    margin: 20px;
+    background: hwb(295 0% 96% / 0.936);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(252, 248, 248);
+    z-index: 2;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #000BFF;
+    color: rgb(12, 243, 31);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005a99;
+  }
+  
+  footer {
+    background: rgba(0, 122, 204, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #3720e0c8;
+    color: white;
+    font-size: 24px;
+  }
+  
+  #content {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Video Background Styling */
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Products Section */
+  #products .product {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #products button {
+    background-color: #562188;
+  }
+  
+  #products button:hover {
+    background-color: #562188;
+  }

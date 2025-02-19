@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Merchant Centre</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Video Background -->
+  <div class="video-background">
+    <video autoplay loop muted>
+      <source src="100.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <header>
+    <h1>BLACK MERCHANT BUSINESS CENTER</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#channel">Join Our Channel</a>
+      <a href="#products">View Products</a> <!-- View Products link -->
+    </nav>
+  </header>
+
+  <section id="loading">
+    <h2>Loading...</h2>
+  </section>
+
+  <main id="content" style="display: none;">
+    <section id="intro">
+      <h2>Welcome to Black Merchant Business Centre</h2>
+      <p>Your one-stop solution for all digital services. Explore our offerings and let us help you grow your business!</p>
+    </section>
+
+    <section id="services">
+      <h2>OUR SERVICES</h2>
+      <div class="service">
+        <h3>WhatsApp Bot</h3>
+        <p>kes 100.</p>
+        <button onclick="redirectToWhatsApp()">Buy Now</button>
+      </div>
+      <div class="service">
+        <h3>VPN Internet </h3>
+        <p>kes 50>>2500.</p>
+        <button onclick="redirectToWhatsApp()">Buy Now</button>
+      </div>
+      <div class="service">
+        <h3>Animation Posters</h3>
+        <p>kes 200.</p>
+        <button onclick="redirectToWhatsApp()">Buy Now</button>
+      </div>
+      <div class="service">
+        <h3>website development Services</h3>
+        <p>kes 5000.</p>
+        <button onclick="redirectToWhatsApp()">Buy Now</button>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Our Products</h2>
+      <p>Explore our products designed to help your business thrive.</p>
+      <div class="product">
+        <img src="copy.jpg" alt="product 1" class="product-image">
+        <h3>Product 1</h3>
+        <p>High-quality product for your business needs.</p>
+        <button onclick="viewProductDetails('product1')">View Details</button>
+      </div>
+      <div class="product">
+        <img src="mkuu.jpg" alt="Product 2" class="product-image">
+        <h3>Product 2</h3>
+        <p>Providing a reliable and affordable Internet solution for your business.</p>
+        <button onclick="viewProductDetails('product2')">View Details</button>
+      </div>
+      <div class="product">
+        <img src="star.jpg" alt="Product 3" class="product-image">
+        <h3>Product 3</h3>
+        <p>funny edits,animated poster creation.</p>
+        <button onclick="viewProductDetails('product3')">View Details</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><a href="https://wa.me/0114283550" target="_blank">WhatsApp</a></li>
+        <li><a href="https://instagram.com/yourinstagram" target="_blank">Instagram</a></li>
+        <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a></li>
+      </ul>
+    </section>
+
+    <section id="group">
+      <h2>Join Our WhatsApp Group</h2>
+      <a href="https://chat.whatsapp.com/CtvPN0aDdpE5HVjFLtXgAr" target="_blank">Join Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Black Merchant Business Centre. All rights reserved.</p>
+  </footer>
+</body>
+</html>
